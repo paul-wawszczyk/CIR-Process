@@ -64,6 +64,14 @@ $$
 d = \frac{4 \theta \kappa}{\sigma^2}
 $$
 
-## Objectives
+## Results
 
-In this work we develop and implement the three methods, as well as comparing them.
+We implement and compare the three methods, the code provided yields to the following results:
+
+![alt text](comparison.png "results")
+
+They all work and follow closely the real mean-reverting process. However, the approximate methods if they follow closely are not identical to the exact one.
+
+Time complexity analysis yields that both approximate approach are as fast and are 3x faster than the exact one. This is due to the fact that the exact method requires the computation of the noncentral chi-squared distribution, which is a more complex computation than the normal distribution.
+
+Unless a very high degree of precision is required, the approximate methods are a good choice to simulate the square-root diffusion process.
