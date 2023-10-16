@@ -1,5 +1,7 @@
 # CIR-Process
 
+*Original project done as part of MATH-GA - 2048. All rights reserved.*
+
 ## Introduction
 
 The **Square Root Diffusion Process** was introduced by Cox, Ingersoll, and Ross in 1985 as a model to describe interest rate behaviors. Later, it was adapted by Heston in 2015 for applications such as stochastic volatility in option pricing. The process is governed by the stochastic differential equation:
